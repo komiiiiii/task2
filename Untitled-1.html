@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design Exercises</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="header">
+    <h1>My Simple Website</h1>
+  </div>
+
+  <div id="navbar">
+    <a href="#task1">Task 1</a>
+    <a href="#task2">Task 2</a>
+    <a href="#task3">Task 3</a>
+    <a href="#footer">Footer</a>
+  </div>
+
+  <div id="sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <h2>Welcome</h2>
+    <p>This is the main content area. The sidebar is floated to the left, and this content is on the right.</p>
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </div>
+
+  
+<div class="content">
+  <h1>Tribute to Johnny Depp</h1>
+  
+  <h2>About Johnny Depp</h2>
+  <p>
+    Johnny Depp (1963 – present) is an American actor, producer, and musician. 
+    Known for his versatility and iconic roles, he rose to fame through collaborations 
+    with director Tim Burton and his portrayal of Captain Jack Sparrow in the *Pirates of the Caribbean* film series. 
+    Over his career, he has become one of Hollywood’s most distinctive and influential performers.
+  </p>
+
+  <h3>Career Highlights</h3>
+  <ol>
+    <li>1984 – Film debut in *A Nightmare on Elm Street*</li>
+    <li>1990 – Breakthrough role in *Edward Scissorhands*</li>
+    <li>2003 – Global success with *Pirates of the Caribbean*</li>
+    <li>2012 – Received MTV Generation Award</li>
+    <li>2020 – Honored for contributions to cinema worldwide</li>
+  </ol>
+
+  <h3>Notable Works</h3>
+  <ul>
+    <li>Pirates of the Caribbean series</li>
+    <li>Edward Scissorhands</li>
+    <li>Charlie and the Chocolate Factory</li>
+    <li>Alice in Wonderland</li>
+  </ul>
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzKhXm70-Xm0wnuBhdLggVHmi7uU-SzUpVXb-iWy1A1LIhqJcViPflNOsNngPw67zGq3gNYs8W3SjdKdQGSp5h9az1a5Aa_srY0yS2wUqJ" 
+       alt="Johnny Depp portrait" width="300">
+
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Johnny_Depp" target="_blank">Learn more about Johnny Depp</a>
+  </p>
+  <a href="https://en.wikipedia.org/wiki/Johnny_Depp" class="btn" target="_blank">Learn More</a>
+</div>
+
+
+  <div id="task3">
+    <h1 id="grades-title">Student Grades</h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Alice</td>
+        <td>Math</td>
+        <td>A</td>
+      </tr>
+      <tr class="highlight-row">
+        <td>Science</td>
+        <td>B+</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td colspan="2" style="text-align:center;">Pending Results</td>
+      </tr>
+      <tr>
+        <td>Charlie</td>
+        <td>History</td>
+        <td>B</td>
+      </tr>
+    </table>
+
+    <h2>Feedback Form</h2>
+    <form id="feedback-form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="role">Role:</label><br>
+      <select id="role" name="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+      </select><br>
+      <p>Do you like this website?</p>
+      <label><input type="radio" name="like" value="yes"> Yes</label>
+      <label><input type="radio" name="like" value="no"> No</label>
+
+
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" rows="4"></textarea><br>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>

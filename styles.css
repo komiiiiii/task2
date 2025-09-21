@@ -1,0 +1,154 @@
+#header {
+  background: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#navbar {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navbar a:hover {
+  color: yellow;
+}
+
+#sidebar {
+  float: left;
+  width: 20%;
+  background: #f2f2f2;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+#content {
+  float: right;
+  width: 75%;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+#footer {
+  clear: both;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* =====================
+   Task 2 – Tribute Page
+===================== */
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.content img {
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.content h1, .content h2, .content h3 {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #357ab7;
+}
+
+/* =====================
+   Task 3 – Table + Form
+===================== */
+#grades-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 10px;
+}
+
+th {
+  background: #4a90e2;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.highlight-row {
+  background: #ffeaa7;
+}
+
+#feedback-form {
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+#feedback-form label {
+  font-weight: bold;
+}
+
+#feedback-form input,
+#feedback-form textarea,
+#feedback-form select {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#feedback-form button {
+  width: 100%;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#feedback-form button:hover {
+  background: #357ab7;
+}
